@@ -1,5 +1,8 @@
 ## Homework
 
+Solutions to the Datatalksclub MLOPS zoomcamp homework 4 (deployment)
+[Original homework](https://github.com/DataTalksClub/mlops-zoomcamp/blob/main/cohorts/2025/04-deployment/homework.md)
+
 In this homework, we'll deploy the ride duration model in batch mode. Like in homework 1, we'll use the Yellow Taxi Trip Records dataset. 
 
 You'll find the starter code in the [homework](homework) directory.
@@ -104,7 +107,7 @@ Finally, we'll package the script in the docker container.
 For that, you'll need to use a base image that we prepared. 
 
 This is what the content of this image is:
-
+[text](../mlops25-hw4/starter.ipynb) [text](../mlops25-hw4/starter.py)
 ```dockerfile
 FROM python:3.10.13-slim
 
